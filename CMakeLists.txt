@@ -34,6 +34,7 @@ set(msg_files
   "msg/Detection3D.msg"
   "msg/Detection3DArray.msg"
   "msg/VehicleControl.msg"
+  "msg/VehicleMode.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
